@@ -1,0 +1,278 @@
+/* GENERAL */
+
+body {
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+p {
+  line-height: 20px;
+  color: #777;
+}
+
+.clear {
+  clear: both;
+}
+
+small {
+  font-size: 13px;
+  font-style: italic;
+}
+
+
+/*------------------------------------*\
+          HEADER ET NAVIGATION
+\*------------------------------------*/
+.head-title {
+
+  font-family: 'Crete Round', serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.point_jaune {
+  color: #fff500;
+}
+
+header {
+  height: auto;
+}
+
+header h1 {
+  margin-top: 32px;
+  font-family: 'Homemade Apple', cursive;
+}
+
+header nav {
+  text-align: center;
+  margin-top: 50px;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  /*text-transform: uppercase;*/
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #fff500;
+  text-shadow: 0 1px 2px rgba(18, 17, 17, 0.27);
+}
+header nav ul li a:hover {
+    color: #fff500;
+    border-bottom: 2px solid #fff500;
+  }
+
+
+/*------------------------------------*\
+          MAIN IMAGE
+\*------------------------------------*/
+
+#main-image {
+  height: auto;
+  background: url(images/yoga-2.jpg) center;
+  background-size: cover;
+  background-attachment: fixed;
+  /*position: relative;*/
+  height: 100vh;
+}
+
+#main-image h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 150px 0 40px 0;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+  font-size: 4rem;
+
+}
+
+.button_1 {
+  display: block;
+  width: 120px;
+  height: 50px;
+  background: #fff500;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.button_1:hover {
+  background: ;
+}
+
+
+/*------------------------------------*\
+          BLOG BLOCK2
+\*------------------------------------*/
+
+#blog {
+  margin: 80px 0;
+}
+
+#blog h4 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#blog p {
+  margin-bottom: 20px;
+}
+
+#blog img {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+
+/*------------------------------------*\
+        OUR TEACHERS BLOCK3
+\*------------------------------------*/
+
+#teachers {
+
+  background-color: #EFEFEF;
+  padding: 60px 0;
+}
+
+.teachers-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+
+
+}
+
+#teachers h4 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#teachers p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button_2 {
+  color: #fff;
+  background-color: #ff7a00;
+  padding: 6px 20px;
+  border-radius: 3px;
+}
+
+.button_2:hover {
+  color: #fff;
+  background-color: #fff500;
+  padding: 6px 20px;
+  border-radius: 3px;
+}
+
+
+/*------------------------------------*\
+                CONTACTS
+\*------------------------------------*/
+
+#contact {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#contact h3 {
+  width: 400px;
+  border-bottom: 1px solid #fff500;
+  text-transform: uppercase;
+  margin: 0 auto 20px auto;
+  padding-bottom: 20px;
+}
+
+form {
+  margin: 60px 0 20px 0;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #777;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+}
+
+.button_3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 11px;
+  background-color: #fff500;
+  border-style: none;
+  border-radius: 3px;
+}
+
+.button_3:hover {
+  color: #fff;
+  background-color: #444;
+}
+
+
+/*------------------------------------*\
+            FOOTER
+\*------------------------------------*/
+
+#logo-footer {
+  width: 20%;
+}
+
+footer {
+  height: 260px;
+  background-color: #444;
+}
+
+footer h1 {
+  color: #fff;
+  text-align: center;
+  padding: 80px;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 30px;
+  color: #777;
+}
