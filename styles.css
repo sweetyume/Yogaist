@@ -1,4 +1,8 @@
 /* GENERAL */
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
 
 body {
   box-sizing: border-box;
@@ -7,12 +11,14 @@ body {
   font-family: Arial, sans-serif;
   font-size: 15px;
 }
-.wrapper {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
 
+.container h3 {
+    width: 400px;
+    border-bottom: 1px solid #fff500;
+    text-transform: uppercase;
+    margin: 0 auto 60px auto;
+    padding-bottom: 20px;
+}
 p {
   line-height: 20px;
   color: #777;
@@ -58,7 +64,6 @@ header {
 
 header h1 {
   margin-top: 32px;
-  font-family: 'Homemade Apple', cursive;
 }
 
 header nav {
@@ -77,11 +82,11 @@ header nav ul li a {
   font-weight: bold;
   margin-right: 20px;
   color: #fff500;
-  text-shadow: 0 1px 2px rgba(18, 17, 17, 0.27);
+  text-shadow: 1px 1px 2px rgba(18, 17, 17, 0.19);
 }
 header nav ul li a:hover {
-    color: #fff500;
-    border-bottom: 2px solid #fff500;
+    color: #444;
+    border-bottom: 1px solid #444;
   }
 
 
@@ -125,9 +130,15 @@ header nav ul li a:hover {
 }
 
 .button_1:hover {
-  background: ;
+  background-color:#9990ED;
+  text-decoration: none;
 }
+a.button_1:hover {
+  color: black;
+}
+a.button_1:visited {
 
+}
 
 /*------------------------------------*\
           BLOG BLOCK2
@@ -152,9 +163,41 @@ header nav ul li a:hover {
   width: 100%;
 }
 
+/*------------------------------------*\
+           LOCATIONS BLOCK3
+\*------------------------------------*/
+
+.container-locations {
+  display: flex;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.locations h1 {
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+
+}
+.left-half {
+  background-color:  #fff500;
+  flex: 1;
+  padding: 15%;
+}
+
+.right-half {
+  background-image: url(images/locations.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  flex: 1;
+  padding: 15%;
+}
 
 /*------------------------------------*\
-        OUR TEACHERS BLOCK3
+        OUR TEACHERS BLOCK4
 \*------------------------------------*/
 
 #teachers {
@@ -162,17 +205,33 @@ header nav ul li a:hover {
   background-color: #EFEFEF;
   padding: 60px 0;
 }
+/*#teachers h3 {
+  width: 400px;
+  border-bottom: 1px solid #fff500;
+  text-transform: uppercase;
+  margin: 0 auto 20px auto;
+  padding-bottom: 20px;
+}*/
 
 .teachers-pic {
   width: 200px;
   height: 200px;
   border-radius: 100px;
 
+ background-position: center center;
+
+ background-size: cover;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+
 
 }
 
 #teachers h4 {
+  border-top: 10px;
   border-bottom: 1px solid #ddd;
+  padding-top: 20px;
   padding-bottom: 20px;
   text-transform: uppercase;
   text-align: center;
