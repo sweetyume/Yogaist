@@ -1,8 +1,12 @@
 /* GENERAL */
-@media(max-width:767px){}
-@media(min-width:768px){}
-@media(min-width:992px){}
-@media(min-width:1200px){}
+
+@media(max-width:767px) {}
+
+@media(min-width:768px) {}
+
+@media(min-width:992px) {}
+
+@media(min-width:1200px) {}
 
 body {
   box-sizing: border-box;
@@ -13,12 +17,13 @@ body {
 }
 
 .container h3 {
-    width: 400px;
-    border-bottom: 1px solid #fff500;
-    text-transform: uppercase;
-    margin: 0 auto 60px auto;
-    padding-bottom: 20px;
+  width: 400px;
+  border-bottom: 1px solid #fff500;
+  text-transform: uppercase;
+  margin: 0 auto 60px auto;
+  padding-bottom: 20px;
 }
+
 p {
   line-height: 20px;
   color: #777;
@@ -37,12 +42,13 @@ small {
 /*------------------------------------*\
           HEADER ET NAVIGATION
 \*------------------------------------*/
-.head-title {
 
+.head-title {
   font-family: 'Crete Round', serif;
   font-size: 1.5em;
   text-align: center;
 }
+
 .circle {
   width: 100px;
   height: 100px;
@@ -54,6 +60,7 @@ small {
   flex-direction: row;
   justify-content: center;
 }
+
 .point_jaune {
   color: #fff500;
 }
@@ -82,12 +89,12 @@ header nav ul li a {
   font-weight: bold;
   margin-right: 20px;
   color: #fff500;
-  text-shadow: 1px 1px 2px rgba(18, 17, 17, 0.19);
 }
+
 header nav ul li a:hover {
-    color: #444;
-    border-bottom: 1px solid #444;
-  }
+  color: #444;
+  border-bottom: 1px solid #444;
+}
 
 
 /*------------------------------------*\
@@ -97,9 +104,9 @@ header nav ul li a:hover {
 #main-image {
   height: auto;
   background: url(images/yoga-2.jpg) center;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  /*position: relative;*/
   height: 100vh;
 }
 
@@ -112,7 +119,6 @@ header nav ul li a:hover {
   color: #fff;
   text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
   font-size: 4rem;
-
 }
 
 .button_1 {
@@ -130,15 +136,16 @@ header nav ul li a:hover {
 }
 
 .button_1:hover {
-  background-color:#9990ED;
+  background-color: #9990ED;
   text-decoration: none;
 }
-a.button_1:hover {
-  color: black;
-}
-a.button_1:visited {
 
+a.button_1:hover {
+  color: #000000;
 }
+
+a.button_1:visited {}
+
 
 /*------------------------------------*\
           BLOG BLOCK2
@@ -151,10 +158,13 @@ a.button_1:visited {
 #blog h4 {
   text-transform: uppercase;
   margin-bottom: 20px;
+  color: #ece30b;
 }
 
 #blog p {
+  padding-top: 10px;
   margin-bottom: 20px;
+  padding: 5px;
 }
 
 #blog img {
@@ -162,6 +172,7 @@ a.button_1:visited {
   height: auto;
   width: 100%;
 }
+
 
 /*------------------------------------*\
            LOCATIONS BLOCK3
@@ -176,13 +187,14 @@ a.button_1:visited {
   flex-direction: column;
   justify-content: center;
 }
+
 .locations h1 {
   color: #fff;
   text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
-
 }
+
 .left-half {
-  background-color:  #fff500;
+  background-color: #fff500;
   flex: 1;
   padding: 15%;
 }
@@ -196,15 +208,17 @@ a.button_1:visited {
   padding: 15%;
 }
 
+
 /*------------------------------------*\
         OUR TEACHERS BLOCK4
 \*------------------------------------*/
 
 #teachers {
-
   background-color: #EFEFEF;
   padding: 60px 0;
 }
+
+
 /*#teachers h3 {
   width: 400px;
   border-bottom: 1px solid #fff500;
@@ -217,15 +231,11 @@ a.button_1:visited {
   width: 200px;
   height: 200px;
   border-radius: 100px;
-
- background-position: center center;
-
- background-size: cover;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-
-
+  background-position: center center;
+  background-size: cover;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
 }
 
 #teachers h4 {
@@ -236,6 +246,9 @@ a.button_1:visited {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
+  
+
+
 }
 
 #teachers p {
@@ -245,7 +258,6 @@ a.button_1:visited {
 
 .button_2 {
   color: #fff;
-  background-color: #ff7a00;
   padding: 6px 20px;
   border-radius: 3px;
 }
@@ -262,12 +274,12 @@ a.button_1:visited {
                 CONTACTS
 \*------------------------------------*/
 
-#contact {
+#contacts {
   padding: 60px 0;
   text-align: center;
 }
 
-#contact h3 {
+#contacts h3 {
   width: 400px;
   border-bottom: 1px solid #fff500;
   text-transform: uppercase;
@@ -315,7 +327,9 @@ input[type="text"] {
 \*------------------------------------*/
 
 #logo-footer {
-  width: 20%;
+  padding-top: 30px;
+  vertical-align: middle;
+  width: 10%;
 }
 
 footer {
@@ -329,9 +343,33 @@ footer h1 {
   padding: 80px;
 }
 
+
+/*.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  color: #fff500;
+}
+
+.fa-facebook:hover {
+  color: #3B5998;
+}
+
+.fa-twitter:hover {
+  color: #00ACED;
+}
+
+.fa-google-plus:hover {
+  color: #DD4B39;
+}
+
+.fa-instagram:hover {
+  color: #517FA4;
+}*/
+
 .copyright {
   text-align: center;
   font-weight: bold;
-  padding-bottom: 30px;
   color: #777;
 }
